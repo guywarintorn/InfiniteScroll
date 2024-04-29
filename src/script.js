@@ -9,7 +9,7 @@ async function getData() {
     console.log(dataArrays);
     displayData();
   } catch(error) {
-    console.log('error');
+    console.log(error);
   }
 }
 
